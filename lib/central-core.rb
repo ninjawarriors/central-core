@@ -54,6 +54,12 @@ module CentralCore
     Dir.glob(search_me).sort.each {|rb| require rb}
   end
 
+  # Helper function to allow Central to pull version information
+  #
+  def self.version
+    VERSION
+  end
+
 end  # module CentralCore
 
 CentralCore.require_all_libs_relative_to(__FILE__)
