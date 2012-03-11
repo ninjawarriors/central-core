@@ -22,10 +22,16 @@ Install
 -------
 
 From rubygems (not done yet):
-* `sudo gem install central-core`
+
+```
+sudo gem install central-core
+```
 
 From local source:
-* rake gem:install
+
+```
+rake gem:install
+```
 
 Author
 ------
